@@ -1,9 +1,11 @@
-public class Materias {
+import java.io.Serializable;
+public class Materias implements Serializable {
 
     private String nombreM;
     private String profesorM;
     private String horarioM;
     private int cupos;
+
 
     public Materias(String nombreM,String profesorM, String horarioM, int cupos){
         this.nombreM = nombreM;
