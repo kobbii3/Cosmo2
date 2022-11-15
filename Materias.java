@@ -9,9 +9,9 @@ public class Materias implements Serializable {
 
     public Materias(String nombreM,String profesorM, String horarioM, int cupos){
         this.nombreM = nombreM;
-        this.profesorM = profesorM; 
-        this.horarioM = horarioM; 
-        this.cupos = cupos;  
+        this.profesorM = profesorM;
+        this.horarioM = horarioM;
+        this.cupos = cupos;
     }
 
     public int getCupos() {
@@ -23,6 +23,6 @@ public class Materias implements Serializable {
     }
 
     public String info() {
-        return "Nombre: "+ nombreM + "| Profesor: "+ profesorM + " | Horario: "+ horarioM + " | cupos: "+ cupos;
+        return "Materia: "+ nombreM + "| Profesor: "+ profesorM + " | Horario: "+ horarioM + " | Cupos: "+ cupos;
     };
 }
