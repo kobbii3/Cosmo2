@@ -84,7 +84,7 @@ public class Cosmos {
             for(int i = 0; i < listaMaterias.size(); i++){
                 texto += "\n" + "[" + (i+1) + "]" + (listaMaterias.get(i)).info();
             }
-            JOptionPane.showMessageDialog(null, "El usuario " + usuario1.getNombre() + usuario1.getCodigo() + texto);
+            JOptionPane.showMessageDialog(null, "El usuario " + usuario1.getNombre() + usuario1.getCodigo() +" ha matriculado: " + texto);
         }else{JOptionPane.showMessageDialog(null, "No se han matriculado materias.");}
     }
 
