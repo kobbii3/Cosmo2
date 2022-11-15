@@ -2,6 +2,7 @@ public class Usuario {
 
     public String nombre;
     public Materias materias;
+    public int codigo;
 
 
     public Usuario(String nombre){
@@ -18,5 +19,12 @@ public class Usuario {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
 }
